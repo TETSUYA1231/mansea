@@ -1,0 +1,44 @@
+{
+  "id": "2272128",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "637797",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "826086",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e707",
+      "unicode_decimal": 59143
+    },
+    {
+      "icon_id": "144131",
+      "name": "arrow",
+      "font_class": "arrow",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "7826085",
+      "name": "close",
+      "font_class": "baseline-close-px",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "8952400",
+      "name": "arrow-up",
+      "font_class": "arrow-up",
+      "unicode": "e7dd",
+      "unicode_decimal": 59357
+    }
+  ]
+}
