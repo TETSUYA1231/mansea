@@ -42,6 +42,16 @@
         </div>
       </div>
     </div>
+    <div class="card-group d-flex flex-wrap">
+      <m-card
+        v-for="(cards, i) in cardsCats"
+        :key="i"
+        :name="cards.name"
+        :subName="cards.subName"
+        :url="cards.url"
+        :icon="cards.icon"
+      ></m-card>
+    </div>
     <div class="business">
       <div class="container">
         <h2>
@@ -93,16 +103,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="card-group d-flex flex-wrap">
-      <m-card
-        v-for="(cards, i) in cardsCats"
-        :key="i"
-        :name="cards.name"
-        :subName="cards.subName"
-        :url="cards.url"
-        :icon="cards.icon"
-      ></m-card>
     </div>
     <div class="list-card-title">
       <h2>

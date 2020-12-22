@@ -10,9 +10,14 @@
             <span class="logo-text">让生命享受绿色</span>
           </router-link>
         </div>
-        <div class="nav-menu">
+        <div class="nav-menu" :class="{ active: opened }">
           <div class="button no-sp" @click="toggle">
             <span>Menu</span>
+          </div>
+          <div class="burger no-pc" role="button" aria-label="menu" @click="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
           <div class="menu-board" v-if="opened">
             <div class="container">

@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="footer-cy">
-      <div class="cont d-flex jc-between">
+      <div class="cont d-flex">
         <span class="copyright">Copyright © 满蹊景观规划设计有限公司 Co.,Ltd. All Rights Reserved.</span>
       </div>
     </div>
